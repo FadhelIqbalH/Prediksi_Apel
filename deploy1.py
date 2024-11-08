@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-with open('model.pkl', 'rb') as file:
+with open("model.pkl", "rb") as file:
     model = pickle.load(file)
 
 def prediksi(data):
